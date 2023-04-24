@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     36255,        848]
-NotebookOptionsPosition[     35726,        830]
-NotebookOutlinePosition[     36172,        847]
-CellTagsIndexPosition[     36129,        844]
+NotebookDataLength[     36469,        851]
+NotebookOptionsPosition[     35940,        833]
+NotebookOutlinePosition[     36386,        850]
+CellTagsIndexPosition[     36343,        847]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -193,7 +193,7 @@ Cell[BoxData[
           RowBox[{"Ry", "[", "i", "]"}], ",", 
           RowBox[{"Rz", "[", "i", "]"}]}], "]"}], "]"}], ",", 
        RowBox[{"{", 
-        RowBox[{"i", ",", "Nnuclei"}], "}"}]}], "]"}]}], ";"}], " ", 
+        RowBox[{"i", ",", "Nnuclei"}], "}"}]}], "]"}]}], ";"}], 
    "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
@@ -681,6 +681,8 @@ Cell[BoxData[
      RowBox[{
      "\"\<The simulated data and the fitted function.png\>\"", ",", "data3"}],
       "]"}], ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{"Cleaning", " ", "parameters"}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"fitres", "=."}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
@@ -823,15 +825,16 @@ Cell[BoxData[
    3.8834933952405367`*^9, 3.8834934179142*^9}, {3.883493562051364*^9, 
    3.8834935660605044`*^9}, {3.8834936245263524`*^9, 
    3.8834936599101763`*^9}, {3.883493753398472*^9, 3.883493885609701*^9}, {
-   3.883493954575816*^9, 
-   3.883493958655584*^9}},ExpressionUUID->"add2d32a-3845-41de-b3dd-\
+   3.883493954575816*^9, 3.883493958655584*^9}, {3.888043823029128*^9, 
+   3.888043824464615*^9}, {3.88804701050062*^9, 3.888047011093028*^9}, 
+   3.8913512269750566`*^9},ExpressionUUID->"add2d32a-3845-41de-b3dd-\
 15efd004a70c"]
 }, Open  ]]
 },
-WindowSize->{1024.5, 513.75},
-WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+WindowSize->{1428., 741.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"TryRealOnly" -> False|>,
-FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 30, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"ceab945d-f577-40c8-baf6-bb129f26ed2a"
 ]
@@ -847,8 +850,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 299, 7, 85, "Subtitle",ExpressionUUID->"de7e32f9-d7c1-46a4-a436-f62a239c1b2a"],
-Cell[882, 31, 34828, 796, 2065, "Input",ExpressionUUID->"add2d32a-3845-41de-b3dd-15efd004a70c"]
+Cell[580, 22, 299, 7, 53, "Subtitle",ExpressionUUID->"de7e32f9-d7c1-46a4-a436-f62a239c1b2a"],
+Cell[882, 31, 35042, 799, 1989, "Input",ExpressionUUID->"add2d32a-3845-41de-b3dd-15efd004a70c"]
 }, Open  ]]
 }
 ]
